@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_calculatorzakat"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="Gold Zakat Calculator"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/item_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About Us"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/item_share"
+            android:icon="@drawable/baseline_share_24"
+            android:title="Share"
+            app:showAsAction="never" />
+    </group>
+
+</menu>
